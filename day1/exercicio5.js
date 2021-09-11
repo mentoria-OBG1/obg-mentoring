@@ -19,11 +19,11 @@ class Pessoa{
 
     whichAge(){
         if(this.age > 60){
-            console.log("Terceira Idade");
+            console.log("Esta pessoa está na terceira idade");
         }else if(this.age > 30 && this.age < 60){
-            console.log("Segunda Idade");
+            console.log("Esta pessoa está na segunda idade");
         }else
-            console.log("Primeira Idade");
+            console.log("Esta pessoa está na primeira idade");
     }
 }
 
